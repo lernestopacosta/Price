@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+  
+/*determina el tamaño de tu pagina*/
+    width: 100%;
+   max-width: 1000px;
+   margin: auto;
+   
+   
+}
+
+.container .text{
+    margin-top: 10%;
+
+
+}
+
+.container .text h1{
+    font-size: 60px;
+    color: rgb(65, 202, 202);
+}
+
+.container .text h2{
+    padding-top: 15px;
+    color: #EB9A52;
+
+}
+
+.container .text p{
+    padding-top: 15px;
+    color: gray;
+}
+
+
+
+/*SECTION 2 FLEX*/
+
+.flex .container{
+    display: flex;
+    margin-top: 5%;
+}
+
+.text2{
+    width: 50%;
+    background-color: rgb(28, 153, 153);
+    height: 313px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.text3{
+    width: 50%;
+    background-color: rgb(37, 110, 110);
+    height: 313px;
+    color: white;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.flex .container h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.flex .container h2{
+    padding-top: 10px;
+    font-size: 80px;
+}
+
+.flex .container .text2 .centrar{
+    display: flex;
+    align-items: center;
+    
+}
+
+.flex .container .text2 .centrar .p1{
+    padding-left: 15px;
+    font-size: 25px;
+}
+
+.flex .container .text2 .p2{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.flex .container .text2 .btn{
+    margin-left: 50px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: yellowgreen;
+    border: none;
+    width: 250px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    -webkit-box-shadow: 0px 0px 5px -4px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 5px -4px rgba(0,0,0,1);
+    box-shadow: 0px 0px 5px -4px rgba(0,0,0,1);
+    cursor: pointer;
+
+}
+
+
+/*Section 2 flex derecha*/
+
+.flex .container .text3 .p3{
+    padding-top: 15px;
+     
+
+}
+
+.flex .container .text3 .p4{
+    padding-top: 15px;
+     
+
+}
+
+.flex .container .text3 .p5{
+    padding-top: 15px;
+     
+
+}
+
+.flex .container .text3 .p6{
+    padding-top: 15px;
+     
+
+}
+
+
+/*Responsive*/
+
+@media only screen and (max-width: 320px) {
+    .container{
+        margin:0;      
+    }
+
+    .flex .container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .text2{
+        width: auto;
+        padding-left: 10px;
+        
+    }
+
+    .text3{
+        width: auto;
+        padding-left: 10px;
+        
+    }
+
+    .container .text{
+        padding-left: 10px;
+        text-align: left;
+        
+    }
+    .container .text h1{
+        font-size: 30px;
+    }
+
+    .container .text h2{
+        font-size: 15px;
+    }
+
+    .container .text p{
+        font-size: 12px;
+    }
+
+    .flex .container .text2 h1{
+        font-size: 20px;
+    }
+
+    .flex .container .text2 .centrar h2{
+        font-size: 40px;
+    }
+
+    .flex .container .text2 .centrar .p1{
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .flex .container .text2 .p2{
+        font-size: 15px;
+    }
+
+    .flex .container .text2 .btn{
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .container{
+        margin:0;      
+    }
+
+    .flex .container{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .text2{
+        width: auto;
+        padding-left: 80px;
+    }
+
+    .text3{
+        width: auto;
+        padding-left: 80px;
+    }
+
+    .container .text{
+        padding-left: 10px;
+        
+    }
+    .container .text h1{
+        font-size: 40px;
+    }
+
+    .container .text h2{
+        font-size: 18px;
+    }
+
+    .container .text p{
+        font-size: 15px;
+    }
+
+    .flex .container .text2 h1{
+        font-size: 30px;
+    }
+
+    .flex .container .text2 .centrar h2{
+        font-size: 60px;
+    }
+
+    .flex .container .text2 .centrar .p1{
+        margin-top: 5px;
+        font-size: 30px;
+    }
+
+    .flex .container .text2 .p2{
+        font-size: 20px;
+    }
+
+    .flex .container .text2 .btn{
+        margin-left: 15px;
+    }
+    
+    .flex .container .text3 h1{
+        font-size: 50px;
+    }
+
+    .flex .container .text3 p{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container{
+        margin:0;      
+    }
+
+    .flex .container{
+        display: flex;
+               
+    }
+
+    .container .text{
+        padding-left: 15px;
+    }
+
+    .text2{
+        padding-left:15px;
+    }
+
+    .flex .container .text2 .btn{
+        margin-left:auto;
+    }
+
+    .text3{
+        padding-left: 15px;
+    }
+         
+}
